@@ -1,39 +1,97 @@
 
 
+body{
+    background-image:url(/assets/img/fondo.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+background-attachment: fixed;
+}
+
+
 
 
 
 
 /* ENCABEZADO */
+header
 {
-    background-color: brown;
+    background-color: rgba(179, 54, 224, 0.391);
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center ;
+    text-align: center;
+    
+    
 }
 
 
 
 /* PRINCIPAL */
-img{
-    width:60px;
-    height:60px;
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center ;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
 }
 
 
+img{
+    width:60px;
+    height:60px;
+ 
+
+}
+
+a{
+   color: rgb(156, 116, 192)
+}
+a:host{
+color: rgb(199, 4, 193);
+}
 
 
 
 
 table{
 
-    background-color: cornflowerblue;
+    background-color: rgba(22, 175, 206, 0.555);
     width: 55%;
-    border border-collapse:collapse: ;
+    border-collapse:collapse;
+
+    border: 5px solid rgb(255, 45, 45);
+
+
+
+    
+}
+th{
+    border: 5px solid rgba(0, 0, 0, 0.531);
+}
+tr{
+    border: 5px solid rgb(255, 255, 255);
+}
+td{
+    border: 5px solid rgba(255, 255, 255, 0.665);
+    color: aliceblue;
+}
+h2{
+    color: rgb(88, 252, 255);
 }
 
-tr{
-    text-align: center;left
-    border: 10px 
+p{
+    color: rgb(255, 255, 255);
 }
 
 
 
 /* PIE */
+h1{
+    color: rgba(0, 229, 255, 0.277);
+}
